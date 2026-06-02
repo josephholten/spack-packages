@@ -20,6 +20,12 @@ class Imlib2(AutotoolsPackage, SourceforgePackage):
 
     license("Imlib2")
 
+    version(
+        "1.12.6",
+        sha256="250f9752f69dc522e529a81aaa9395705f7fc312ff2453e5de59ac2ba1f2858f",
+        url="https://downloads.sourceforge.net/enlightenment/imlib2-1.12.6.tar.xz",
+    )
+
     version("1.7.1", sha256="033a6a639dcbc8e03f65ff05e57068e7346d50ee2f2fff304bb9095a1b2bc407")
     version("1.7.0", sha256="1976ca3db48cbae79cd0fc737dabe39cc81494fc2560e1d22821e7dc9c22b37d")
     version("1.6.1", sha256="4d393a77e13da883c8ee2da3b029da3570210fe37d000c9ac33d9fce751b166d")
